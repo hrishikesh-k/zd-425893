@@ -1,5 +1,5 @@
 <script>
-	let { navOpen = $bindable() } = $props();
+	let { navOpen = false } = $props();
 </script>
 
 {#if navOpen}
