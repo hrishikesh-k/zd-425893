@@ -1,5 +1,5 @@
 [build]
-  command = "npm list svelte @sveltejs/kit @sveltejs/vite-plugin-svelte @sveltejs/adapter-static vite && node -v && corepack -v && pnpmm -v && npm run build"
+  command = "pnpm list svelte @sveltejs/kit @sveltejs/vite-plugin-svelte @sveltejs/adapter-static vite && node -v && corepack -v && pnpmm -v && npm run build"
   publish = "build"
   environment = { NODE_VERSION = "20.11.0" }
 
